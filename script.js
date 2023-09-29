@@ -9,7 +9,7 @@ const setSizes = () => {
     window.innerHeight
   }px; --booklet-width: ${bookletWidth}px; --page-width: ${
     bookletWidth / 3
-  }px; --booklet-height: ${bookletWidth / 2}px`;
+  }px; --booklet-height: ${bookletWidth / 2.2}px`;
 };
 
 setSizes();
