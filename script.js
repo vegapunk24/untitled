@@ -5,6 +5,11 @@ const setSizes = () => {
     bookletWidth = 0.75 * window.innerHeight * 2;
   }
 
+  // Adjust for mobile view
+  if (window.innerWidth < 768) {
+    bookletWidth = 0.9 * window.innerWidth;
+  }
+
   document.body.style = `height: ${
     window.innerHeight
   }px; --booklet-width: ${bookletWidth}px; --page-width: ${
